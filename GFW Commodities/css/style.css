@@ -37,10 +37,24 @@ margin: 0 37%;
 background: url('../images/gfw-commodities-background.jpg') no-repeat;
 background-size: cover;
 background-position: bottom;
-height: 300px;
+height: 250px;
 }
 
 /*BODY*/
+
+#gfw-below-header{
+max-width: 600px;
+margin: 50px auto;
+}
+
+#gfw-below-header p{
+text-align: center;
+color: #97bd3d;
+font-weight: 500;
+font-size: 18px;
+padding: 0px 50px;
+}
+
 
 #gfw-body{
 max-width: 600px;
@@ -118,7 +132,7 @@ padding: 10px;
 }
 
 #header{
-height: 400px;
+height: 250px;
 }
 
 #top-header img{
@@ -129,9 +143,18 @@ margin: 0;
 
 /*BODY*/
 
+#gfw-below-header{
+max-width: 1000px;
+}
+
+#gfw-below-header p{
+padding: 0;
+font-size: 22px;
+}
+
 #gfw-body{
 max-width: 1000px;
-margin: 100px auto;
+margin: 50px auto;
 }
 
 #gfw-body div{
