@@ -1,0 +1,190 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 'Fira Sans', Georgia, serif;
+overflow-x: hidden;
+}
+
+/*HEADER*/
+
+.gfw-logo{
+width: 150px;
+}
+
+#top-header{
+max-width: 600px;
+margin: 0 auto;
+}
+
+#top-header p{
+font-size: 18px;
+font-weight: 500;
+color: #e98300;
+margin: 25px 0;
+padding: 0 50px;
+text-align: center;
+}
+
+#top-header img{
+width: 125px;
+margin: 0 37%;
+}
+
+#header{
+background: url('../images/gfw-commodities-background.jpg') no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 250px;
+}
+
+/*BODY*/
+
+#gfw-below-header{
+max-width: 600px;
+margin: 50px auto;
+}
+
+#gfw-below-header p{
+text-align: center;
+color: #97bd3d;
+font-weight: 500;
+font-size: 18px;
+padding: 0px 50px;
+}
+
+
+#gfw-body{
+max-width: 600px;
+margin: 0px auto;
+}
+
+#gfw-body div{
+background-color: #f7f7f7;
+padding: 15px;
+margin: 25px 50px;
+}
+
+.gfw-body-block p{
+padding: 12.5px 0px;
+font-size: 22px;
+color: grey;
+font-weight: 200;
+}
+
+.gfw-body-line-2{
+font-size: 18px !important;
+}
+
+.gfw-body-block img{
+width: 100px;
+padding: 15px 25px 25px 25px;
+}
+
+.gfw-link{
+font-weight: 500;
+color: #97bd3d;
+text-decoration: none;
+}
+
+/*FOOTER*/
+
+#footer{
+background-color: #eceee8;
+}
+
+.footer-inner{
+max-width: 600px;
+margin: 0px auto;
+padding: 50px 25px;
+}
+
+.footer-inner p{
+font-size: 14px;
+letter-spacing: .1px;
+color: #999;
+font-weight: 200;
+margin: 0 50px;
+}
+
+.footer-inner img{
+width: 150px;
+margin: 25px 50px;
+}
+
+
+@media screen and (min-width: 1000px){
+
+
+/*HEADER*/
+
+#top-header{
+max-width: 1000px;
+height: 75px;
+}
+
+#top-header p{
+font-size: 28px;
+text-align: center;
+padding: 10px;
+}
+
+#header{
+height: 250px;
+}
+
+#top-header img{
+position: absolute;
+top: 0;
+margin: 0;
+}
+
+/*BODY*/
+
+#gfw-below-header{
+max-width: 1000px;
+}
+
+#gfw-below-header p{
+padding: 0;
+font-size: 22px;
+}
+
+#gfw-body{
+max-width: 1000px;
+margin: 50px auto;
+}
+
+#gfw-body div{
+display: inline-block;
+margin: 0px 12.5px;
+width: calc(45% - 12.5px);
+}
+
+.gfw-body-line-1{
+height: 125px;
+}
+
+/*FOOTER*/
+
+.footer-inner{
+max-width: 1000px;
+}
+
+.footer-inner p{
+margin: 0px 25px;
+}
+
+.footer-inner img{
+margin: 25px;
+}
+}
+
+@media screen and (max-width: 400px){
+.gfw-body-block img{
+width: calc(80px - 15px);
+padding: 15px;
+}
+}
